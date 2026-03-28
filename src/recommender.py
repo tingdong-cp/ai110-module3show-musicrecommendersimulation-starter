@@ -2,10 +2,10 @@ import csv
 from typing import List, Dict, Tuple, Optional
 from dataclasses import dataclass
 
-GENRE_WEIGHT = 2.0
-MOOD_WEIGHT = 1.5
-ENERGY_WEIGHT = 1.0
-ACOUSTIC_WEIGHT = 0.5
+GENRE_WEIGHT = 2.0    # Reset
+MOOD_WEIGHT = 1.5     # Keep same
+ENERGY_WEIGHT = 1.0   # Reset
+ACOUSTIC_WEIGHT = 0.5 # Keep same
 
 @dataclass
 class Song:
